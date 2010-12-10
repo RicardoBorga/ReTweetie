@@ -1,0 +1,1079 @@
+TReTweetie
+v7
+r0
+t313712280.503120
+cCheck dependencies
+cProcessInfoPlistFile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fuszsypwrsvvuebupkjfgjfvttvu/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-aqseezcszhdompggoqifldoinmja/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-djofvzqtzuksvigktxwqkbqhzbdu/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie normal x86_64
+cLd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie normal i386
+cLd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie normal ppc
+cCreateUniversalBinary /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle.dSYM /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+cTouch /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004CEBA61F00000000000000EE
+t1290511903
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004864BB88000000000000170F
+t1214561160
+s5903
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/objc/objc-class.h
+c0000000047BABD020000000000000032
+t1203420418
+s50
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/objc/runtime.h
+c0000000047BABD020000000000004FE4
+t1203420418
+s20452
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CEBA62600000000000000EE
+t1290511910
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/objc/objc-class.h
+c000000004C239B2C0000000000000032
+t1277401900
+s50
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/nickpaulson/Desktop/ReTweetie/ABCallback.h
+c000000004D01A30000000000000001E4
+t1291952896
+s484
+i<Foundation/Foundation.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/ABTableViewCell.h
+c000000004D019B62000000000000033B
+t1291950946
+s827
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/ABTableViewDelegate-Protocol.h
+c000000004D0194A20000000000000186
+t1291949218
+s390
+
+N/Users/nickpaulson/Desktop/ReTweetie/ABViewController.h
+c000000004D019B5B000000000000048C
+t1291950939
+s1164
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/English.lproj/InfoPlist.strings
+c000000004D01950E0000000000000030
+t1291949326
+s48
+
+N/Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.h
+c000000004A22F474000000000000023E
+t1243804788
+s574
+i<Foundation/Foundation.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m
+c000000004CEE943B0000000000001327
+t1290703931
+s4903
+i"JRSwizzle.h"
+i<objc/objc-class.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.h
+c000000004D01963800000000000000FA
+t1291949624
+s250
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m
+c000000004D02A1A000000000000008B4
+t1292018080
+s2228
+i"ReTweetiePlugin.h"
+i"SynthesizeSingleton.h"
+i"TwitterStatus.h"
+i"TweetieStatusTableViewCell.h"
+i"TweetieStatusListViewController.h"
+i"JRSwizzle.h"
+i"TwitterAccount.h"
+i"TweetieAccountTabsView.h"
+i"TwitterAPI.h"
+i"TwitterAPI-Private.h"
+i"ABCallback.h"
+i<objc/runtime.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch
+c000000004D01950E0000000000000096
+t1291949326
+s150
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/SynthesizeSingleton.h
+c000000004CE50E5B00000000000004FF
+t1290079835
+s1279
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/ABCallback.h
+c000000004D01A30000000000000001E4
+t1291952896
+s484
+i<Foundation/Foundation.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/ABTableViewCell.h
+c000000004D019B62000000000000033B
+t1291950946
+s827
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/ABTableViewDelegate-Protocol.h
+c000000004D0194A20000000000000186
+t1291949218
+s390
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/ABViewController.h
+c000000004D019B5B000000000000048C
+t1291950939
+s1164
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/TweetieAccountTabsView.h
+c000000004D01A404000000000000066A
+t1291953156
+s1642
+i<AppKit/AppKit.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/TweetieStatusListViewController.h
+c000000004D0194A2000000000000086F
+t1291949218
+s2159
+i"ABViewController.h"
+i"ABTableViewDelegate-Protocol.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/TweetieStatusTableViewCell.h
+c000000004D019B500000000000000774
+t1291950928
+s1908
+i"TweetieTableViewCell.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/TweetieTableViewCell.h
+c000000004D019B6700000000000004F7
+t1291950951
+s1271
+i"ABTableViewCell.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/TwitterAPI-Private.h
+c000000004D0194A2000000000000032A
+t1291949218
+s810
+i"TwitterAPI.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/TwitterAPI.h
+c000000004D01A5E900000000000001E9
+t1291953641
+s489
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/TwitterAccount.h
+c000000004D01A08C0000000000000F87
+t1291952268
+s3975
+i<Foundation/Foundation.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/Tweetie Class Dump/TwitterStatus.h
+c000000004D019B5100000000000006C8
+t1291950929
+s1736
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/TweetieAccountTabsView.h
+c000000004D01A404000000000000066A
+t1291953156
+s1642
+i<AppKit/AppKit.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/TweetieClassDump.h
+c000000004D0197BF000000000001B59C
+t1291950015
+s112028
+
+N/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.h
+c000000004D019AE500000000000001C9
+t1291950821
+s457
+i<Cocoa/Cocoa.h>
+i"TweetieStatusListViewController.h"
+i"TwitterStatus.h"
+i"TweetieStatusTableViewCell.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m
+c000000004D019A0B00000000000001A3
+t1291950603
+s419
+i"TweetieStatusListViewController+RTHacks.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController.h
+c000000004D0194A2000000000000086F
+t1291949218
+s2159
+i"ABViewController.h"
+i"ABTableViewDelegate-Protocol.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusTableViewCell.h
+c000000004D019B500000000000000774
+t1291950928
+s1908
+i"TweetieTableViewCell.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/TweetieTableViewCell.h
+c000000004D019B6700000000000004F7
+t1291950951
+s1271
+i"ABTableViewCell.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/TwitterAPI-Additions.h
+c000000004D0194A200000000000000CE
+t1291949218
+s206
+i"TwitterAPI.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/TwitterAPI-Private.h
+c000000004D0194A2000000000000032A
+t1291949218
+s810
+i"TwitterAPI.h"
+
+N/Users/nickpaulson/Desktop/ReTweetie/TwitterAPI.h
+c000000004D01A5E900000000000001E9
+t1291953641
+s489
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/TwitterAccount.h
+c000000004D01A08C0000000000000F87
+t1291952268
+s3975
+i<Foundation/Foundation.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/TwitterStatus.h
+c000000004D019B5100000000000006C8
+t1291950929
+s1736
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o
+t1291951969
+s10756
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie
+t1292018081
+s22080
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie.LinkFileList
+c000000004D019F5D00000000000000EC
+t1291951965
+s236
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o
+t1292018081
+s26568
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/TweetieStatusListViewController+RTHacks.o
+t1291951632
+s16292
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o
+t1291951969
+s10880
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie
+t1292018081
+s20840
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie.LinkFileList
+c000000004D019F5D00000000000000EA
+t1291951965
+s234
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o
+t1292018081
+s27028
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/TweetieStatusListViewController+RTHacks.o
+t1291951632
+s16392
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o
+t1291951969
+s12172
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie
+t1292018081
+s18448
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie.LinkFileList
+c000000004D019F5D00000000000000F0
+t1291951965
+s240
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o
+t1292018081
+s31860
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/TweetieStatusListViewController+RTHacks.o
+t1291951632
+s17556
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle
+t1292018081
+s102
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle.dSYM
+t1292018081
+s102
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist
+t1291951965
+s1046
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+t1292018081
+s69992
+
+N/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+t1291951965
+s92
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/English.lproj/InfoPlist.strings
+c000000004D01950E0000000000000030
+t1291949326
+s48
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.h
+c000000004A22F474000000000000023E
+t1243804788
+s574
+i<Foundation/Foundation.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m
+c000000004CEE943B0000000000001327
+t1290703931
+s4903
+i"JRSwizzle.h"
+i<objc/objc-class.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.h
+c000000004D01963800000000000000FA
+t1291949624
+s250
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m
+c000000004D02A1A000000000000008B4
+t1292018080
+s2228
+i"ReTweetiePlugin.h"
+i"SynthesizeSingleton.h"
+i"TwitterStatus.h"
+i"TweetieStatusTableViewCell.h"
+i"TweetieStatusListViewController.h"
+i"JRSwizzle.h"
+i"TwitterAccount.h"
+i"TweetieAccountTabsView.h"
+i"TwitterAPI.h"
+i"TwitterAPI-Private.h"
+i"ABCallback.h"
+i<objc/runtime.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetie_Prefix.pch
+c000000004D01950E0000000000000096
+t1291949326
+s150
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/SynthesizeSingleton.h
+c000000004CE50E5B00000000000004FF
+t1290079835
+s1279
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/ABCallback.h
+c000000004D01A30000000000000001E4
+t1291952896
+s484
+i<Foundation/Foundation.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/ABTableViewCell.h
+c000000004D019B62000000000000033B
+t1291950946
+s827
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/ABTableViewDelegate-Protocol.h
+c000000004D0194A20000000000000186
+t1291949218
+s390
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/ABViewController.h
+c000000004D019B5B000000000000048C
+t1291950939
+s1164
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/TweetieAccountTabsView.h
+c000000004D01A404000000000000066A
+t1291953156
+s1642
+i<AppKit/AppKit.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/TweetieStatusListViewController.h
+c000000004D0194A2000000000000086F
+t1291949218
+s2159
+i"ABViewController.h"
+i"ABTableViewDelegate-Protocol.h"
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/TweetieStatusTableViewCell.h
+c000000004D019B500000000000000774
+t1291950928
+s1908
+i"TweetieTableViewCell.h"
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/TweetieTableViewCell.h
+c000000004D019B6700000000000004F7
+t1291950951
+s1271
+i"ABTableViewCell.h"
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/TwitterAPI-Private.h
+c000000004D0194A2000000000000032A
+t1291949218
+s810
+i"TwitterAPI.h"
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/TwitterAPI.h
+c000000004D01A5E900000000000001E9
+t1291953641
+s489
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/TwitterAccount.h
+c000000004D01A08C0000000000000F87
+t1291952268
+s3975
+i<Foundation/Foundation.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Tweetie Class Dump/TwitterStatus.h
+c000000004D019B5100000000000006C8
+t1291950929
+s1736
+i<Cocoa/Cocoa.h>
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o
+t1292019480
+s10796
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie
+t1292019480
+s22160
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie.LinkFileList
+c000000004D02A7140000000000000114
+t1292019476
+s276
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o
+t1292019480
+s26628
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o
+t1292019480
+s10920
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie
+t1292019480
+s20920
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie.LinkFileList
+c000000004D02A7140000000000000112
+t1292019476
+s274
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o
+t1292019480
+s27088
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o
+t1292019480
+s12212
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie
+t1292019480
+s18528
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie.LinkFileList
+c000000004D02A7140000000000000118
+t1292019476
+s280
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o
+t1292019480
+s31924
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle
+t1292019480
+s102
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle.dSYM
+t1292019480
+s102
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist
+t1292019476
+s1043
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+t1292019480
+s70072
+
+N/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+t1291951965
+s92
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-aqseezcszhdompggoqifldoinmja/ReTweetie_Prefix.pch.gch
+t1292019479
+s52822448
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bpxpbigfhxpsvygayllydxwdutaw/ReTweetie_Prefix.pch.gch
+t1291951969
+s50053360
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bsydrwhpvndnbbboekitmoziehvj/ReTweetie_Prefix.pch.gch
+t1291949878
+s52823632
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bwqwadrvvyhlasgdlghhgvlosfng/ReTweetie_Prefix.pch.gch
+t1291949878
+s55592752
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-disgcjydybfqszewgtxfepgxgsji/ReTweetie_Prefix.pch.gch
+t1291951969
+s49897776
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-djofvzqtzuksvigktxwqkbqhzbdu/ReTweetie_Prefix.pch.gch
+t1292019479
+s50053360
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fuszsypwrsvvuebupkjfgjfvttvu/ReTweetie_Prefix.pch.gch
+t1292019479
+s49897776
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fvrueqohbgajruarujdjjbfpykzh/ReTweetie_Prefix.pch.gch
+t1291949878
+s52958992
+
+N/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-gbqupaaiasckgobubbkxdfeoiwnw/ReTweetie_Prefix.pch.gch
+t1291951969
+s52822448
+
+NInfo.plist
+c000000004D02A708000000000000046A
+t1292019464
+s1130
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313712276#313712276#0(0"0(0#1#0"8752998240#0"0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313644769.248849
+e313644769.526372
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o
+x/Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m313644769#313644769#0(0"0(0#0#48"/Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m8756873984#1471"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/i386 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-gbqupaaiasckgobubbkxdfeoiwnw/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313712279.932864
+e313712280.194778
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m313712279#313712280#0(0"0(0#0#68"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m8757970464#1691"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/i386 -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-aqseezcszhdompggoqifldoinmja/ReTweetie_Prefix.pch -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/JRSwizzle.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313710880.891219
+e313710881.175302
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o
+x/Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m313710880#313710881#0(0"0(0#0#54"/Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m8752655872#1483"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/i386 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-gbqupaaiasckgobubbkxdfeoiwnw/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313712279.931722
+e313712280.260172
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m313712279#313712280#0(0"0(0#0#74"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m8754351648#1703"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/i386 -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-aqseezcszhdompggoqifldoinmja/ReTweetie_Prefix.pch -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetiePlugin.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/TweetieStatusListViewController+RTHacks.o /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313644432.209468
+e313644432.527394
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/TweetieStatusListViewController+RTHacks.o
+x/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m313644432#313644432#0(0"0(0#0#78"/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m8657810176#1531"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/i386 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-gbqupaaiasckgobubbkxdfeoiwnw/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/TweetieStatusListViewController+RTHacks.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313644769.534568
+e313644769.757299
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o
+x/Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m313644769#313644769#0(0"0(0#0#48"/Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m8754275168#1478"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/ppc -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bpxpbigfhxpsvygayllydxwdutaw/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313712280.194929
+e313712280.410210
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m313712280#313712280#0(0"0(0#0#68"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m8753280768#1698"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/ppc -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-djofvzqtzuksvigktxwqkbqhzbdu/ReTweetie_Prefix.pch -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/JRSwizzle.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313710880.892483
+e313710881.175543
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o
+x/Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m313710880#313710881#0(0"0(0#0#54"/Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m8751334912#1490"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/ppc -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bpxpbigfhxpsvygayllydxwdutaw/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313712280.157951
+e313712280.449300
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m313712280#313712280#0(0"0(0#0#74"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m8754208128#1710"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/ppc -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-djofvzqtzuksvigktxwqkbqhzbdu/ReTweetie_Prefix.pch -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetiePlugin.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/TweetieStatusListViewController+RTHacks.o /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313644432.420765
+e313644432.631684
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/TweetieStatusListViewController+RTHacks.o
+x/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m313644432#313644432#0(0"0(0#0#78"/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m8751728960#1538"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/ppc -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bpxpbigfhxpsvygayllydxwdutaw/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/TweetieStatusListViewController+RTHacks.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313644769.246497
+e313644769.534420
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o
+x/Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m313644769#313644769#0(0"0(0#0#48"/Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m8659056480#1477"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/x86_64 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-disgcjydybfqszewgtxfepgxgsji/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/JRSwizzle.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313712279.930698
+e313712280.157783
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m313712279#313712280#0(0"0(0#0#68"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m8658353984#1697"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/x86_64 -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fuszsypwrsvvuebupkjfgjfvttvu/ReTweetie_Prefix.pch -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/JRSwizzle.m -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/JRSwizzle.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313710880.700515
+e313710881.173951
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o
+x/Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m313710880#313710881#0(0"0(0#0#54"/Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m8656862208#1489"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/x86_64 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-disgcjydybfqszewgtxfepgxgsji/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetiePlugin.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313712279.929649
+e313712280.246751
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m313712279#313712280#0(0"0(0#0#74"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m8754465408#1709"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/x86_64 -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fuszsypwrsvvuebupkjfgjfvttvu/ReTweetie_Prefix.pch -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetiePlugin.m -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetiePlugin.o0#
+
+CCompileC build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/TweetieStatusListViewController+RTHacks.o /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313644431.916288
+e313644432.151904
+r1
+xCompileC
+xbuild/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/TweetieStatusListViewController+RTHacks.o
+x/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m313644431#313644432#0(0"0(0#0#78"/Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m8751264128#1537"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/x86_64 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -include /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-disgcjydybfqszewgtxfepgxgsji/ReTweetie_Prefix.pch -c /Users/nickpaulson/Desktop/ReTweetie/TweetieStatusListViewController+RTHacks.m -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/TweetieStatusListViewController+RTHacks.o0#
+
+CCopyStringsFile /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s313644765.588207
+e313644765.626542
+r1
+xCopyStringsFile
+x/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings313644765#313644765#0(0"0(0#0#68"/Users/nickpaulson/Desktop/ReTweetie/English.lproj/InfoPlist.strings8709853184#368"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCreateUniversalBinary /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie normal "x86_64 i386 ppc"
+s313710881.213970
+e313710881.218086
+r1
+xCreateUniversalBinary
+x/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@102"CreateUniversalBinary build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie normal "x86_64 i386 ppc"313710881#313710881#0(0"0(0#0#52"/Users/nickpaulson/Desktop/ReTweetie/x86_64 i386 ppc8656934240#511"    cd /Users/nickpaulson/Desktop/ReTweetie    /usr/bin/lipo -create /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie -output /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie0#
+
+CCreateUniversalBinary /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie normal "x86_64 i386 ppc"
+s313712280.477103
+e313712280.480992
+r1
+xCreateUniversalBinary
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@102"CreateUniversalBinary build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie normal "x86_64 i386 ppc"313712280#313712280#0(0"0(0#0#72"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/x86_64 i386 ppc8754952896#611"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    /usr/bin/lipo -create /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie -output /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie0#
+
+CGenerateDSYMFile /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle.dSYM /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+s313710881.218227
+e313710881.247160
+r1
+xGenerateDSYMFile
+x/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle.dSYM
+x/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+lSLF07#2@108"GenerateDSYMFile build/Release/ReTweetie.bundle.dSYM build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie313710881#313710881#0(0"0(0#0#92"/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie8758055200#245"    cd /Users/nickpaulson/Desktop/ReTweetie    /Developer/usr/bin/dsymutil /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie -o /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle.dSYM0#
+
+CGenerateDSYMFile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle.dSYM /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+s313712280.481078
+e313712280.500470
+r1
+xGenerateDSYMFile
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle.dSYM
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie
+lSLF07#2@108"GenerateDSYMFile build/Release/ReTweetie.bundle.dSYM build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie313712280#313712280#0(0"0(0#0#112"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie8754823008#305"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    /Developer/usr/bin/dsymutil /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/MacOS/ReTweetie -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle.dSYM0#
+
+CLd /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie normal i386
+s313710881.175637
+e313710881.209235
+r1
+xLd
+x/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie
+xnormal
+xi386
+lSLF07#2@117"Link /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie313710881#313710881#0(0"0(0#0#0"8713329856#603"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/nickpaulson/Desktop/ReTweetie/build/Release -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -filelist /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -framework Cocoa -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie0#
+
+CLd /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie normal ppc
+s313710881.176569
+e313710881.213362
+r1
+xLd
+x/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie
+xnormal
+xppc
+lSLF07#2@116"Link /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie313710881#313710881#0(0"0(0#0#0"8710482720#600"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/nickpaulson/Desktop/ReTweetie/build/Release -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -filelist /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -framework Cocoa -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie0#
+
+CLd /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie normal x86_64
+s313710881.174079
+e313710881.213855
+r1
+xLd
+x/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie
+xnormal
+xx86_64
+lSLF07#2@119"Link /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie313710881#313710881#0(0"0(0#0#0"8714204032#609"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/nickpaulson/Desktop/ReTweetie/build/Release -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -filelist /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -framework Cocoa -o /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie0#
+
+CLd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie normal i386
+s313712280.260320
+e313712280.310899
+r1
+xLd
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie
+xnormal
+xi386
+lSLF07#2@137"Link /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie313712280#313712280#0(0"0(0#0#0"8751574976#703"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -filelist /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -framework Cocoa -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/i386/ReTweetie0#
+
+CLd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie normal ppc
+s313712280.449430
+e313712280.476991
+r1
+xLd
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie
+xnormal
+xppc
+lSLF07#2@136"Link /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie313712280#313712280#0(0"0(0#0#0"8755104128#700"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -filelist /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -framework Cocoa -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/ppc/ReTweetie0#
+
+CLd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie normal x86_64
+s313712280.246900
+e313712280.335145
+r1
+xLd
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie
+xnormal
+xx86_64
+lSLF07#2@139"Link /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie313712280#313712280#0(0"0(0#0#0"8753047040#709"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -filelist /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -framework Cocoa -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/Objects-normal/x86_64/ReTweetie0#
+
+CProcessInfoPlistFile /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist Info.plist
+s313644765.584482
+e313644765.588120
+r1
+xProcessInfoPlistFile
+x/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist313644765#313644765#0(0"0(0#0#47"/Users/nickpaulson/Desktop/ReTweetie/Info.plist8710820352#213"    cd /Users/nickpaulson/Desktop/ReTweetie    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist Info.plist
+s313712276.359347
+e313712276.362480
+r1
+xProcessInfoPlistFile
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist313712276#313712276#0(0"0(0#0#67"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/Info.plist8673142240#253"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-aqseezcszhdompggoqifldoinmja/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313712276.363823
+e313712279.929546
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-aqseezcszhdompggoqifldoinmja/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313712276#313712279#0(0"0(0#0#77"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetie_Prefix.pch8721495136#1567"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/i386 -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-aqseezcszhdompggoqifldoinmja/ReTweetie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bpxpbigfhxpsvygayllydxwdutaw/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s313644765.628528
+e313644769.162799
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bpxpbigfhxpsvygayllydxwdutaw/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313644765#313644769#0(0"0(0#0#57"/Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch8709201600#1375"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/ppc -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bpxpbigfhxpsvygayllydxwdutaw/ReTweetie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bsydrwhpvndnbbboekitmoziehvj/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s313642674.769700
+e313642678.390269
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bsydrwhpvndnbbboekitmoziehvj/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313642674#313642678#0(0"0(0#0#57"/Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch8603072608#1375"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/ppc -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bsydrwhpvndnbbboekitmoziehvj/ReTweetie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bwqwadrvvyhlasgdlghhgvlosfng/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313642674.768558
+e313642678.484573
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bwqwadrvvyhlasgdlghhgvlosfng/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313642674#313642678#0(0"0(0#0#57"/Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch8623154912#1367"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/i386 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-bwqwadrvvyhlasgdlghhgvlosfng/ReTweetie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-disgcjydybfqszewgtxfepgxgsji/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313644765.626680
+e313644769.071427
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-disgcjydybfqszewgtxfepgxgsji/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313644765#313644769#0(0"0(0#0#57"/Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch8709820512#1371"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/x86_64 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-disgcjydybfqszewgtxfepgxgsji/ReTweetie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-djofvzqtzuksvigktxwqkbqhzbdu/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s313712276.365017
+e313712279.825830
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-djofvzqtzuksvigktxwqkbqhzbdu/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313712276#313712279#0(0"0(0#0#77"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetie_Prefix.pch8717669984#1575"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/ppc -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-djofvzqtzuksvigktxwqkbqhzbdu/ReTweetie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fuszsypwrsvvuebupkjfgjfvttvu/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313712276.362681
+e313712279.712399
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fuszsypwrsvvuebupkjfgjfvttvu/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313712276#313712279#0(0"0(0#0#77"/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetie_Prefix.pch8721890976#1571"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/include -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/x86_64 -I/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fuszsypwrsvvuebupkjfgjfvttvu/ReTweetie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fvrueqohbgajruarujdjjbfpykzh/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313642674.766479
+e313642678.340722
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fvrueqohbgajruarujdjjbfpykzh/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313642674#313642678#0(0"0(0#0#57"/Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch8631769248#1371"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/x86_64 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-fvrueqohbgajruarujdjjbfpykzh/ReTweetie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-gbqupaaiasckgobubbkxdfeoiwnw/ReTweetie_Prefix.pch.gch ReTweetie_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313644765.627627
+e313644769.245302
+r1
+xProcessPCH
+x/var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-gbqupaaiasckgobubbkxdfeoiwnw/ReTweetie_Prefix.pch.gch
+xReTweetie_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ReTweetie_Prefix.pch313644765#313644769#0(0"0(0#0#57"/Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch8709359136#1367"    cd /Users/nickpaulson/Desktop/ReTweetie    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-generated-files.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-own-target-headers.hmap -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-all-target-headers.hmap -iquote /Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/ReTweetie-project-headers.hmap -F/Users/nickpaulson/Desktop/ReTweetie/build/Release -I/Users/nickpaulson/Desktop/ReTweetie/build/Release/include -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources/i386 -I/Users/nickpaulson/Desktop/ReTweetie/build/ReTweetie.build/Release/ReTweetie.build/DerivedSources -c /Users/nickpaulson/Desktop/ReTweetie/ReTweetie_Prefix.pch -o /var/folders/Nv/Nv3vRp+4Hz0CFzqjU1nPtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ReTweetie_Prefix-gbqupaaiasckgobubbkxdfeoiwnw/ReTweetie_Prefix.pch.gch0#
+
+CTouch /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle
+s313710881.247284
+e313710881.250798
+r1
+xTouch
+x/Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle
+lSLF07#2@73"Touch /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle313710881#313710881#0(0"0(0#0#0"8757053984#134"    cd /Users/nickpaulson/Desktop/ReTweetie    /usr/bin/touch -c /Users/nickpaulson/Desktop/ReTweetie/build/Release/ReTweetie.bundle0#
+
+CTouch /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle
+s313712280.500564
+e313712280.503085
+r1
+xTouch
+x/Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle
+lSLF07#2@93"Touch /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle313712280#313712280#0(0"0(0#0#0"8754526336#174"    cd /Users/nickpaulson/Documents/Projects/Personal/ReTweetie    /usr/bin/touch -c /Users/nickpaulson/Documents/Projects/Personal/ReTweetie/build/Release/ReTweetie.bundle0#
+

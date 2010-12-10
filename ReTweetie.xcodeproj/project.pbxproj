@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B418B5912B1CC9800B2CC7A /* ReTweetiePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B418B5812B1CC9800B2CC7A /* ReTweetiePlugin.m */; };
+		4B418B9412B1CF1200B2CC7A /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B418B9312B1CF1200B2CC7A /* JRSwizzle.m */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* ReTweetie_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReTweetie_Prefix.pch; sourceTree = "<group>"; };
+		4B418B5712B1CC9800B2CC7A /* ReTweetiePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReTweetiePlugin.h; sourceTree = "<group>"; };
+		4B418B5812B1CC9800B2CC7A /* ReTweetiePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReTweetiePlugin.m; sourceTree = "<group>"; };
+		4B418B6512B1CD8F00B2CC7A /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		4B418B9212B1CF1200B2CC7A /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		4B418B9312B1CF1200B2CC7A /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		4B418CD812B2D8E200B2CC7A /* ABCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCallback.h; sourceTree = "<group>"; };
+		4B418CD912B2D8E200B2CC7A /* ABTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewCell.h; sourceTree = "<group>"; };
+		4B418CDA12B2D8E200B2CC7A /* ABTableViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABTableViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		4B418CDB12B2D8E200B2CC7A /* ABViewController-ABNavigationControllerAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABViewController-ABNavigationControllerAnimations.h"; sourceTree = "<group>"; };
+		4B418CDC12B2D8E200B2CC7A /* ABViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
+		4B418CDD12B2D8E200B2CC7A /* TweetieAccountTabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetieAccountTabsView.h; sourceTree = "<group>"; };
+		4B418CDE12B2D8E200B2CC7A /* TweetieStatusListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetieStatusListViewController.h; sourceTree = "<group>"; };
+		4B418CDF12B2D8E200B2CC7A /* TweetieStatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetieStatusTableViewCell.h; sourceTree = "<group>"; };
+		4B418CE012B2D8E200B2CC7A /* TweetieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetieTableViewCell.h; sourceTree = "<group>"; };
+		4B418CE112B2D8E200B2CC7A /* TwitterAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAccount.h; sourceTree = "<group>"; };
+		4B418CE212B2D8E200B2CC7A /* TwitterAPI-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TwitterAPI-Private.h"; sourceTree = "<group>"; };
+		4B418CE312B2D8E200B2CC7A /* TwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAPI.h; sourceTree = "<group>"; };
+		4B418CE412B2D8E200B2CC7A /* TwitterStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterStatus.h; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* ReTweetie.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReTweetie.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ReTweetie */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = ReTweetie;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B418B5712B1CC9800B2CC7A /* ReTweetiePlugin.h */,
+				4B418B5812B1CC9800B2CC7A /* ReTweetiePlugin.m */,
+				4B418CE512B2D8EA00B2CC7A /* Third Party */,
+				4B418CD712B2D8E200B2CC7A /* Tweetie Class Dump */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* ReTweetie.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* ReTweetie_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4B418CD712B2D8E200B2CC7A /* Tweetie Class Dump */ = {
+			isa = PBXGroup;
+			children = (
+				4B418CD812B2D8E200B2CC7A /* ABCallback.h */,
+				4B418CD912B2D8E200B2CC7A /* ABTableViewCell.h */,
+				4B418CDA12B2D8E200B2CC7A /* ABTableViewDelegate-Protocol.h */,
+				4B418CDB12B2D8E200B2CC7A /* ABViewController-ABNavigationControllerAnimations.h */,
+				4B418CDC12B2D8E200B2CC7A /* ABViewController.h */,
+				4B418CDD12B2D8E200B2CC7A /* TweetieAccountTabsView.h */,
+				4B418CDE12B2D8E200B2CC7A /* TweetieStatusListViewController.h */,
+				4B418CDF12B2D8E200B2CC7A /* TweetieStatusTableViewCell.h */,
+				4B418CE012B2D8E200B2CC7A /* TweetieTableViewCell.h */,
+				4B418CE112B2D8E200B2CC7A /* TwitterAccount.h */,
+				4B418CE212B2D8E200B2CC7A /* TwitterAPI-Private.h */,
+				4B418CE312B2D8E200B2CC7A /* TwitterAPI.h */,
+				4B418CE412B2D8E200B2CC7A /* TwitterStatus.h */,
+			);
+			path = "Tweetie Class Dump";
+			sourceTree = "<group>";
+		};
+		4B418CE512B2D8EA00B2CC7A /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				4B418CEC12B2D8F800B2CC7A /* Matt Gallagher */,
+				4B418CED12B2D90100B2CC7A /* Jonathan Rentzsch */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		4B418CEC12B2D8F800B2CC7A /* Matt Gallagher */ = {
+			isa = PBXGroup;
+			children = (
+				4B418B6512B1CD8F00B2CC7A /* SynthesizeSingleton.h */,
+			);
+			name = "Matt Gallagher";
+			sourceTree = "<group>";
+		};
+		4B418CED12B2D90100B2CC7A /* Jonathan Rentzsch */ = {
+			isa = PBXGroup;
+			children = (
+				4B418B9212B1CF1200B2CC7A /* JRSwizzle.h */,
+				4B418B9312B1CF1200B2CC7A /* JRSwizzle.m */,
+			);
+			name = "Jonathan Rentzsch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* ReTweetie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "ReTweetie" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReTweetie;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = ReTweetie;
+			productReference = 8D5B49B6048680CD000E48DA /* ReTweetie.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "ReTweetie" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* ReTweetie */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* ReTweetie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B418B5912B1CC9800B2CC7A /* ReTweetiePlugin.m in Sources */,
+				4B418B9412B1CF1200B2CC7A /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ReTweetie_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = ReTweetie;
+				SDKROOT = macosx10.5;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ReTweetie_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = ReTweetie;
+				SDKROOT = macosx10.5;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "ReTweetie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "ReTweetie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
