@@ -21,10 +21,14 @@
 
 static void NPCellRepost(id self, SEL _cmd, TweetieStatusTableViewCell *cell, TwitterStatus *status)
 {
-	NSDictionary *info = [[NSDictionary dictionaryWithObjectsAndKeys:cell, @"cell", status, @"status", nil] retain];
-	NSAlert *alert = [NSAlert alertWithMessageText:[NSString stringWithFormat:@"ReTweet"] defaultButton:@"ReTweet" alternateButton:@"Cancel" otherButton:nil informativeTextWithFormat:[NSString stringWithFormat:@"@%@: \"%@\"", [status.fromUser username], status.text]];
+	NSDictionary *info = [[NSDictionary dictionaryWithObjectsAndKeys:self, @"theSelf", cell, @"cell", status, @"status", nil] retain];
+	NSAlert *alert = [NSAlert alertWithMessageText:[NSString stringWithFormat:@"ReTweet"] defaultButton:@"ReTweet" alternateButton:@"Cancel" otherButton:@"Quote" informativeTextWithFormat:[NSString stringWithFormat:@"@%@: \"%@\"", [status.fromUser username], status.text]];
 	[alert beginSheetModalForWindow:[cell window] modalDelegate:[ReTweetiePlugin sharedInstance] didEndSelector:@selector(retweetSheetDidEnd:returnCode:contextInfo:) contextInfo:info];
 }
+
+@interface NSObject (ReTweetieAdditions)
+- (void)np_tweetieStatusCell:(TweetieStatusTableViewCell *)cell repostStatus:(TwitterStatus *)status;
+@end
 
 @implementation ReTweetiePlugin
 
@@ -47,14 +51,15 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(ReTweetiePlugin, sharedInstance);
 }
 
 - (void)retweetSheetDidEnd:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(NSDictionary *)contextInfo {
+	TweetieStatusTableViewCell *cell = [contextInfo objectForKey:@"cell"];
+	TwitterStatus *status = [contextInfo objectForKey:@"status"];
+	id theObj = [contextInfo objectForKey:@"theSelf"];
+	
+	if (cell == nil || status == nil) {
+		[contextInfo release];
+		return;
+	}
 	if (returnCode == NSAlertDefaultReturn) {
-		TweetieStatusTableViewCell *cell = [contextInfo objectForKey:@"cell"];
-		TwitterStatus *status = [contextInfo objectForKey:@"status"];
-		
-		if (cell == nil || status == nil) {
-			[contextInfo release];
-			return;
-		}
 		
 		NSArray *potentialSubviews = [[[cell window] contentView] subviews];
 		NSPredicate *predicate = [NSPredicate predicateWithFormat:@"class == %@", NSClassFromString(@"TweetieAccountTabsView")];
@@ -69,6 +74,8 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(ReTweetiePlugin, sharedInstance);
 				
 			}
 		}
+	} else if (returnCode == NSAlertOtherReturn) {
+		[theObj np_tweetieStatusCell:cell repostStatus:status];
 	}
 	[contextInfo release];
 }
